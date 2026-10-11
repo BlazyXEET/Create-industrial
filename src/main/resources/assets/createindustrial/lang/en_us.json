@@ -1,4 +1,7 @@
 {
   "itemGroup.examplemod": "Example Mod Tab",
-  "block.createindustrial.block_of_aluminium": "Block Of Aluminium"
+  "block.createindustrial.block_of_aluminium": "Block Of Aluminium",
+  "block.createindustrial.reinforced_concrete": "Reinforced Concrete",
+  "block.createindustrial.plastered_reinforced_concrete": "Plastered Reinforced Concrete",
+  "block.createindustrial.condensing_mesh": "Condensing Mesh"
 }

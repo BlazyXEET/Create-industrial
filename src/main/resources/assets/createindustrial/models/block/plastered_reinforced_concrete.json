@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/cube_all", "textures": { "all": "createindustrial:block/plastered_reinforced_concrete" }}
