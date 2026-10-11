@@ -1,5 +1,7 @@
 package net.createindustrialteam.createindustrial;
 
+import net.createindustrialteam.createindustrial.blocks.ModBlocks;
+import net.createindustrialteam.createindustrial.items.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -41,7 +43,8 @@ public class CreateIndustreal {
     public CreateIndustreal(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
 
 
         NeoForge.EVENT_BUS.register(this);
@@ -52,6 +55,8 @@ public class CreateIndustreal {
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
+
+
 
     private void commonSetup(FMLCommonSetupEvent event) {
     }
