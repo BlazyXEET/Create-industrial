@@ -33,14 +33,14 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(CreateIndustreal.MODID)
-public class CreateIndustreal {
+@Mod(CreateIndustrial.MODID)
+public class CreateIndustrial {
     public static final String MODID = "createindustrial";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public CreateIndustreal(IEventBus modEventBus, ModContainer modContainer) {
+    public CreateIndustrial(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         ModBlocks.register(modEventBus);
