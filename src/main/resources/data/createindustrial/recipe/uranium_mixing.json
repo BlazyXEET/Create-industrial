@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "results": [
+    {
+      "id": "createindustrial:block_of_uranium"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ package net.createindustrialteam.createindustrial.items;
 
 import net.createindustrialteam.createindustrial.blocks.ModBlocks;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -9,8 +10,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS =
             DeferredRegister.createItems("createindustrial");
-
-
+    // Block items
     public static final DeferredItem<BlockItem> BLOCK_OF_ALUMINIUM_ITEM =
             ITEMS.registerSimpleBlockItem("block_of_aluminium", ModBlocks.BLOCK_OF_ALUMINIUM);
 
@@ -26,8 +26,37 @@ public class ModItems {
     public static final DeferredItem<BlockItem> BLOCK_OF_URANIUM =
             ITEMS.registerSimpleBlockItem("block_of_uranium", ModBlocks.BLOCK_OF_URANIUM);
 
+    public static final DeferredItem<BlockItem> BLOCK_OF_PLUTONIUM =
+            ITEMS.registerSimpleBlockItem("block_of_plutonium", ModBlocks.BLOCK_OF_PLUTONIUM);
 
-    public static void register(IEventBus modeventBus){
-        ITEMS.register(modeventBus);
+    public static final DeferredItem<BlockItem> BLOCK_OF_CALIFORNIUM =
+            ITEMS.registerSimpleBlockItem("block_of_californium", ModBlocks.BLOCK_OF_CALIFORNIUM);
+
+    public static final DeferredItem<BlockItem> BLOCK_OF_STEEL =
+            ITEMS.registerSimpleBlockItem("block_of_steel", ModBlocks.BLOCK_OF_STEEL);
+
+    public static final DeferredItem<BlockItem> FIRE_BRICKS =
+            ITEMS.registerSimpleBlockItem("fire_bricks", ModBlocks.FIRE_BRICKS);
+
+    // regular items
+
+    public static final DeferredItem<BlockItem> REACTOR_FUEL_ROD_FRAME =
+            ITEMS.registerSimpleBlockItem("reactor_fuel_rod_frame", ModBlocks.REACTOR_FUEL_ROD_FRAME);
+
+
+    public static final DeferredItem<Item> FIRE_BRICK =
+    ITEMS.registerSimpleItem("fire_brick");
+
+    public static final DeferredItem<BlockItem> BAUXITE_ORE =
+        ITEMS.registerSimpleBlockItem("bauxite_ore", ModBlocks.BAUXITE_ORE);
+
+    public static final DeferredItem<Item> BAUXITE_POWDER =
+    ITEMS.registerSimpleItem("bauxite_powder");
+
+    //Marker
+    public static void register(IEventBus modEventBus){
+        ITEMS.register(modEventBus);
     }
 }
+
+

@@ -39,13 +39,14 @@ displayName="${mod_name}" #mandatory
 #logoFile="createindustrial.png" #optional
 
 # A text field displayed in the mod UI
-credits="JustAnyNico"
+credits="JustAnyNico, banananananananaman27_84587,robiyo,rufus"
 
 # The authors of the mod, displayed in the mod UI (optional)
 #authors=""
 authors='''
 BlazyXEET
 Yassino12
+banananananananaman27_84587
 '''
 
 # The description text for the mod (multi line!) (#mandatory)

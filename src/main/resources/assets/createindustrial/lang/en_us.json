@@ -3,5 +3,15 @@
   "block.createindustrial.block_of_aluminium": "Block Of Aluminium",
   "block.createindustrial.reinforced_concrete": "Reinforced Concrete",
   "block.createindustrial.plastered_reinforced_concrete": "Plastered Reinforced Concrete",
-  "block.createindustrial.condensing_mesh": "Condensing Mesh"
+  "block.createindustrial.condensing_mesh": "Condensing Mesh",
+  "block.createindustrial.block_of_uranium": "Block Of Uranium",
+  "block.createindustrial.block_of_plutonium": "Block Of Plutonium",
+  "block.createindustrial.block_of_californium": "Block Of Californium",
+  "block.createindustrial.block_of_steel": "Block Of Steel",
+  "block.createindustrial.reactor_fuel_rod_frame": "Reactor Fuel Rod Frame",
+  "item.createindustrial.fire_brick": "Fire Brick",
+  "block.createindustrial.bauxite_ore": "Bauxite Ore",
+  "block.createindustrial.kirk_block": "Kirk Block",
+  "block.createindustrial.bauxite_ore": "Bauxite Ore",
+  "item.createindustrial.bauxite_powder": "Bauxite Powder"
 }
