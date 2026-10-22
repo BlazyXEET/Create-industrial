@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "results": [
+    {
+      "id": "createindustrial:quartzite_dust",
+      "chance": 0.30
+    }
+  ],
+  "processing_time": 600
+}

@@ -1,6 +1,7 @@
 package net.createindustrialteam.createindustrial;
 
 import net.createindustrialteam.createindustrial.blocks.ModBlocks;
+import net.createindustrialteam.createindustrial.items.ModCreativeModTabs;
 import net.createindustrialteam.createindustrial.items.ModItems;
 import org.slf4j.Logger;
 
@@ -45,7 +46,7 @@ public class CreateIndustrial {
         modEventBus.addListener(this::commonSetup);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
-
+        ModCreativeModTabs.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 

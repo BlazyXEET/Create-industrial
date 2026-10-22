@@ -38,20 +38,55 @@ public class ModItems {
     public static final DeferredItem<BlockItem> FIRE_BRICKS =
             ITEMS.registerSimpleBlockItem("fire_bricks", ModBlocks.FIRE_BRICKS);
 
-    // regular items
 
     public static final DeferredItem<BlockItem> REACTOR_FUEL_ROD_FRAME =
             ITEMS.registerSimpleBlockItem("reactor_fuel_rod_frame", ModBlocks.REACTOR_FUEL_ROD_FRAME);
 
-
-    public static final DeferredItem<Item> FIRE_BRICK =
-    ITEMS.registerSimpleItem("fire_brick");
-
     public static final DeferredItem<BlockItem> BAUXITE_ORE =
-        ITEMS.registerSimpleBlockItem("bauxite_ore", ModBlocks.BAUXITE_ORE);
+            ITEMS.registerSimpleBlockItem("bauxite_ore", ModBlocks.BAUXITE_ORE);
+
+    // regular items
+    public static final DeferredItem<Item> FIRE_BRICK =
+        ITEMS.registerSimpleItem("fire_brick");
 
     public static final DeferredItem<Item> BAUXITE_POWDER =
-    ITEMS.registerSimpleItem("bauxite_powder");
+        ITEMS.registerSimpleItem("bauxite_powder");
+
+    public static final DeferredItem<Item> STEEL_INGOT =
+        ITEMS.registerSimpleItem("steel_ingot");
+
+    public static final DeferredItem<Item> QUARTZITE_DUST =
+        ITEMS.registerSimpleItem("quartzite_dust");
+
+    public static final DeferredItem<Item> IMPURE_SILICON_DUST =
+        ITEMS.registerSimpleItem("impure_silicon_dust");
+
+    public static final DeferredItem<Item> PURE_SILICON_DUST =
+        ITEMS.registerSimpleItem("pure_silicon_dust");
+
+    public static final DeferredItem<Item> ALUMINIUM_NUGGET =
+        ITEMS.registerSimpleItem("aluminium_nugget");
+
+    public static final DeferredItem<Item> WELDER =
+    ITEMS.registerSimpleItem("welder");
+
+    public static final DeferredItem<Item> SILICON_WAFER =
+    ITEMS.registerSimpleItem("silicon_wafer");
+
+    public static final DeferredItem<Item> PRINTED_SILICON_WAFER =
+    ITEMS.registerSimpleItem("printed_silicon_wafer");
+
+    public static final DeferredItem<Item> PLUTONIUM_INGOT =
+    ITEMS.registerSimpleItem("plutonium_ingot");
+
+    public static final DeferredItem<Item> STEEL_PLATE =
+    ITEMS.registerSimpleItem("steel_plate");
+
+    public static final DeferredItem<Item> SILICON_CHIP =
+    ITEMS.registerSimpleItem("silicon_chip");
+
+    public static final DeferredItem<Item> UNFIRED_FIRECLAY =
+    ITEMS.registerSimpleItem("unfired_fireclay");
 
     //Marker
     public static void register(IEventBus modEventBus){

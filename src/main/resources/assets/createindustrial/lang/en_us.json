@@ -1,5 +1,5 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
+  "creativetab.createindustrial.create_industrial": "Create Industrial",
   "block.createindustrial.block_of_aluminium": "Block Of Aluminium",
   "block.createindustrial.reinforced_concrete": "Reinforced Concrete",
   "block.createindustrial.plastered_reinforced_concrete": "Plastered Reinforced Concrete",
@@ -13,5 +13,17 @@
   "block.createindustrial.bauxite_ore": "Bauxite Ore",
   "block.createindustrial.kirk_block": "Kirk Block",
   "block.createindustrial.bauxite_ore": "Bauxite Ore",
-  "item.createindustrial.bauxite_powder": "Bauxite Powder"
+  "item.createindustrial.bauxite_powder": "Bauxite Powder",
+  "item.createindustrial.steel_ingot": "Steel Ingot",
+  "item.createindustrial.quartzite_dust": "Quartzite Dust",
+  "item.createindustrial.impure_silicon_dust": "Impure Silicon Dust",
+  "item.createindustrial.pure_silicon_dust": "Pure Silicon Dust",
+  "item.createindustrial.aluminium_nugget": "Aluminium Nugget",
+  "item.createindustrial.welder": "Welder",
+  "item.createindustrial.silicon_wafer": "Silicon Wafer",
+  "item.createindustrial.printed_silicon_wafer": "Printed Silicon Wafer",
+  "item.createindustrial.plutonium_ingot": "Plutonium Ingot",
+  "item.createindustrial.steel_plate": "Steel Plate",
+  "item.createindustrial.silicon_chip": "Silicon Chip",
+  "item.createindustrial.unfired_fireclay": "Unfired Fireclay"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "createindustrial:quartzite_dust",
+      "count": 2
+    },
+    {
+      "id": "createindustrial:quartzite_dust",
+      "chance": 0.25
+    }
+  ],
+  "processing_time": 250
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "createindustrial:quartzite_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "createindustrial:impure_silicon_dust",
+      "count": 1,
+      "chance": 0.1
+    }
+  ]
+}

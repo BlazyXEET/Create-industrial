@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createindustrial:impure_silicon_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "createindustrial:pure_silicon_dust",
+      "chance": 25
+    }
+  ]
+}
