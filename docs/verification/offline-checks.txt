@@ -1,0 +1,18 @@
+V20 SOURCE OFFLINE CHECKS (NOT MINECRAFT RUNTIME)
+
+PASS: 593 resource JSONs, 230 models, 135 PNGs, 38 blockstates.
+PASS: six-facing material variants, 32 hatch variants, legacy port data, sound headers and flat item sprites.
+This is resource/static validation, not Minecraft rendering or Java API compilation.
+PASS: 135 crisp hand-defined 16x16 original PNG assets, distinct embedded mineral ores and Basin steel recipe
+No Minecraft build, mod-loading, server GameTest, Create funnel, or Blender validation implied.
+PASS: GameTest sets FakePlayer body and head rotation and checks actual facing
+PASS: all 7 WelderClickRequest calls pass six arguments
+PASS: No newly generated ports/printer; all-face shared handlers, migration, and GameTests exist
+PASS: parsed 53 Java source files under JDK 21
+PASS: 140 production furnace-matcher assertions
+PASS: four rotations; 29 fireclay, 1 hatch, 6 air; hollow chamber; cardinal top pattern
+FurnaceRulesTest: PASS
+PASS: V20 seamless large furnace, no port tokens, all four rotations
+PASS: timed selections, axis bounds, diagonal reach, overflow checks
+PASS: declarative pattern, 29+1 furnace, all rotations, invalid patterns
+Offline logic checks passed. Minecraft-linked GameTests and client playtesting are separate checks.

@@ -1,0 +1,12 @@
+{
+  "blender": "5.2.0 LTS",
+  "inventory_meshes": 0,
+  "mesh_objects": 41,
+  "packed_images": 37,
+  "ore_families": 6,
+  "manufactured_families": 3,
+  "machines": [
+    "laser_printer",
+    "steel_converter"
+  ]
+}

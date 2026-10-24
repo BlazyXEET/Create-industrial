@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {"id":"aluminium","ore":"bauxite","color":[185,194,204],"ore_color":[177,111,65],"min_y":-32,"max_y":96,"vein_size":10,"veins_per_chunk":7,"dense_rarity":48,"dense_size":5,"tool":"stone"},
+    {"id":"uranium","ore":"uranium","color":[97,108,110],"ore_color":[139,152,63],"min_y":-64,"max_y":16,"vein_size":5,"veins_per_chunk":2,"dense_rarity":96,"dense_size":3,"tool":"iron"},
+    {"id":"silver","ore":"silver","color":[198,210,223],"ore_color":[165,182,201],"min_y":-48,"max_y":32,"vein_size":7,"veins_per_chunk":3,"dense_rarity":80,"dense_size":3,"tool":"iron"},
+    {"id":"tin","ore":"tin","color":[166,180,184],"ore_color":[164,156,130],"min_y":-16,"max_y":80,"vein_size":8,"veins_per_chunk":5,"dense_rarity":64,"dense_size":4,"tool":"stone"},
+    {"id":"lead","ore":"lead","color":[94,102,127],"ore_color":[105,104,135],"min_y":-48,"max_y":48,"vein_size":8,"veins_per_chunk":4,"dense_rarity":64,"dense_size":4,"tool":"iron"},
+    {"id":"nickel","ore":"nickel","color":[166,163,140],"ore_color":[153,148,98],"min_y":-64,"max_y":16,"vein_size":6,"veins_per_chunk":3,"dense_rarity":80,"dense_size":3,"tool":"iron"}
+  ],
+  "manufactured": [
+    {"id":"steel","color":[99,113,124]},
+    {"id":"plutonium","color":[139,143,151]},
+    {"id":"pig_iron","color":[85,82,79]}
+  ]
+}

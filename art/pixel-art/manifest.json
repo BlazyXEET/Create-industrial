@@ -1,0 +1,41 @@
+{
+  "resolution": [
+    16,
+    16
+  ],
+  "material_items": "flat generated sprites",
+  "sprite_items": [
+    "aluminium_ingot",
+    "aluminium_nugget",
+    "uranium_ingot",
+    "uranium_nugget",
+    "silver_ingot",
+    "silver_nugget",
+    "tin_ingot",
+    "tin_nugget",
+    "lead_ingot",
+    "lead_nugget",
+    "nickel_ingot",
+    "nickel_nugget",
+    "steel_ingot",
+    "steel_nugget",
+    "plutonium_ingot",
+    "plutonium_nugget",
+    "pig_iron_ingot",
+    "pig_iron_nugget",
+    "raw_aluminium",
+    "crushed_raw_aluminium",
+    "raw_uranium",
+    "crushed_raw_uranium",
+    "raw_silver",
+    "crushed_raw_silver",
+    "raw_tin",
+    "crushed_raw_tin",
+    "raw_lead",
+    "crushed_raw_lead",
+    "raw_nickel",
+    "crushed_raw_nickel"
+  ],
+  "style": "original limited-palette Minecraft pixel art",
+  "preserved_brand_asset": "cooling_tower_icon.png"
+}

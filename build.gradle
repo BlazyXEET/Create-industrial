@@ -55,6 +55,11 @@ neoForge {
     runs {
         client {
             client()
+            if (project.hasProperty('assetAudit')) {
+                systemProperty 'createindustrial.assetAudit', 'true'
+                systemProperty 'createindustrial.assetAuditOutput', project.file('build/client-asset-audit.txt').absolutePath
+                programArguments.addAll '--width', '1440', '--height', '1500'
+            }
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
