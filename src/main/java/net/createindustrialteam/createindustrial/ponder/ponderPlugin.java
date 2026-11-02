@@ -1,10 +1,11 @@
 package net.createindustrialteam.createindustrial.ponder;
 
+import net.createindustrialteam.createindustrial.items.ModItems;
 import net.createmod.ponder.api.registration.PonderSceneRegistrationHelper;
 import net.createmod.ponder.api.registration.PonderPlugin;
 import net.minecraft.resources.ResourceLocation;
 
-public class CreateIndustrialPonderPlugin implements PonderPlugin {
+public class ponderPlugin implements PonderPlugin {
 
     @Override
     public String getModId() {
@@ -15,13 +16,10 @@ public class CreateIndustrialPonderPlugin implements PonderPlugin {
     public void registerScenes(
             PonderSceneRegistrationHelper<ResourceLocation> helper) {
 
-        helper.forComponents(
-                ResourceLocation.fromNamespaceAndPath(
-                        "createindustrial", "your_block"
-                )
-        ).addStoryBoard(
-                "machines/smth",
-                smth::intro
+        helper.forComponents( ModItems.WELDER.getId())
+        .addStoryBoard(
+                "welderPonder",
+                welderPonderScenes::intro
         );
     }
 }
