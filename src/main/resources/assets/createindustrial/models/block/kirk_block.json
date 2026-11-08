@@ -1,0 +1,3 @@
+{
+ "parent": "minecraft:block/cube_all", "textures": { "all": "createindustrial:block/kirk_block" }
+}
