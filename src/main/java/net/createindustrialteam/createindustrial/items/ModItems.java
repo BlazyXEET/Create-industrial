@@ -35,8 +35,8 @@ public class ModItems {
     public static final DeferredItem<BlockItem> BLOCK_OF_STEEL =
             ITEMS.registerSimpleBlockItem("block_of_steel", ModBlocks.BLOCK_OF_STEEL);
 
-    public static final DeferredItem<BlockItem> FIREBRICKS =
-            ITEMS.registerSimpleBlockItem("firebricks", ModBlocks.FIREBRICKS);
+    public static final DeferredItem<BlockItem> FIRE_BRICKS =
+            ITEMS.registerSimpleBlockItem("fire_bricks", ModBlocks.FIRE_BRICKS);
 
 
     public static final DeferredItem<BlockItem> REACTOR_FUEL_ROD_FRAME =
@@ -44,6 +44,9 @@ public class ModItems {
 
     public static final DeferredItem<BlockItem> BAUXITE_ORE =
             ITEMS.registerSimpleBlockItem("bauxite_ore", ModBlocks.BAUXITE_ORE);
+
+    public static final DeferredItem<BlockItem> ALUMINA_DUST =
+            ITEMS.registerSimpleBlockItem("alumina_dust", ModBlocks.ALUMINA_DUST_LAYER);
 
     // regular items
     public static final DeferredItem<Item> FIRE_BRICK =
@@ -88,8 +91,7 @@ public class ModItems {
     public static final DeferredItem<Item> UNFIRED_FIRECLAY =
     ITEMS.registerSimpleItem("unfired_fireclay");
 
-    public static final DeferredItem<BlockItem> KIRK_BLOCK =
-        ITEMS.registerSimpleBlockItem("kirk_block", ModBlocks.KIRK_BLOCK );
+
 
     //Marker
     public static void register(IEventBus modEventBus){

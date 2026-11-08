@@ -84,8 +84,8 @@ public class ModBlocks {
 
     );
 
-    public static final DeferredBlock<Block> FIREBRICKS = BLOCKS.registerSimpleBlock(
-            "firebricks",
+    public static final DeferredBlock<Block> FIRE_BRICKS = BLOCKS.registerSimpleBlock(
+            "fire_bricks",
             BlockBehaviour.Properties.of()
                     .sound(SoundType.DEEPSLATE_BRICKS)
                     .strength(0.3f,6f)
@@ -130,14 +130,15 @@ public class ModBlocks {
 
 );
 
- public static final DeferredBlock<Block> KIRK_BLOCK = BLOCKS.registerSimpleBlock(
-        "kirk_block",
-        BlockBehaviour.Properties.of()
-                .sound(SoundType.METAL)
-                .strength(0.5f,1f)
-                .requiresCorrectToolForDrops()
+    public static final DeferredBlock<Block> ALUMINA_DUST_LAYER = BLOCKS.registerSimpleBlock(
+            "alumina_dust_layer",
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.SAND)
+                    .strength(0.5f,1f)
+                    .requiresCorrectToolForDrops()
 
-);
+    );
+
 
  //Marker
     public static void register(IEventBus modEventBus){
