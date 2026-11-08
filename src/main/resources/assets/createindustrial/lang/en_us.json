@@ -10,8 +10,7 @@
   "block.createindustrial.block_of_steel": "Block Of Steel",
   "block.createindustrial.reactor_fuel_rod_frame": "Reactor Fuel Rod Frame",
   "item.createindustrial.fire_brick": "Fire Brick",
-  "block.createindustrial.bauxite_ore": "Bauxite Ore",
-  "block.createindustrial.kirk_block": "Kirk Block",
+  "item.createindustrial.firebricks": "Firebricks",
   "block.createindustrial.bauxite_ore": "Bauxite Ore",
   "item.createindustrial.bauxite_powder": "Bauxite Powder",
   "item.createindustrial.steel_ingot": "Steel Ingot",
@@ -25,5 +24,6 @@
   "item.createindustrial.plutonium_ingot": "Plutonium Ingot",
   "item.createindustrial.steel_plate": "Steel Plate",
   "item.createindustrial.silicon_chip": "Silicon Chip",
-  "item.createindustrial.unfired_fireclay": "Unfired Fireclay"
+  "item.createindustrial.unfired_fireclay": "Unfired Fireclay",
+  "block.createindustrial.kirk_block": "Kirk Block"
 }

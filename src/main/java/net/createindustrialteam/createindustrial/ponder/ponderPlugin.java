@@ -18,7 +18,7 @@ public class ponderPlugin implements PonderPlugin {
 
         helper.forComponents( ModItems.WELDER.getId())
         .addStoryBoard(
-                "welderPonder",
+                "welder_intro",
                 welderPonderScenes::intro
         );
     }

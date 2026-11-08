@@ -9,6 +9,8 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
+import net.createindustrialteam.createindustrial.ponder.ponderPlugin;
+import net.createmod.ponder.foundation.PonderIndex;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
 @Mod(value = CreateIndustrial.MODID, dist = Dist.CLIENT)
@@ -25,6 +27,7 @@ public class ExampleModClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
+        event.enqueueWork(() -> PonderIndex.addPlugin(new ponderPlugin()));
         CreateIndustrial.LOGGER.info("HELLO FROM CLIENT SETUP");
         CreateIndustrial.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }

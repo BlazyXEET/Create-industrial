@@ -8,11 +8,19 @@ import net.minecraft.core.Direction;
 
 public class welderPonderScenes extends PonderScene {
     public static void intro(SceneBuilder scene, SceneBuildingUtil util) {
-        scene.title("Welding_intro", "Welding multiblocks together");
-        setupScene(5,scene);
+        scene.title("welder_intro", "Welding multiblocks together");
+        zoom(scene, 0.4f);
+        setupScene(7,scene);
 
-        var starting_pos = util.grid().at(2,1,1);
-        var starting_selection = util.select().position(starting_pos);
-        reveal(scene, starting_selection, Direction.DOWN);
+        var pos = util.grid().at(2,1,2);
+        var sel = util.select().position(pos);
+
+        for (int y = 1; y <= 8; y++) {
+            reveal(scene, util.select().layer(y), Direction.DOWN);
+            scene.idle(2); // pause between layers
+        }
+        scene.idle(20);
+        showTextAbove(scene, util, "i am gay", pos);
+
     };
 };
