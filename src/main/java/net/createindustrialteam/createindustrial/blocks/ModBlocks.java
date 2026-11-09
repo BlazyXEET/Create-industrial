@@ -2,13 +2,10 @@ package net.createindustrialteam.createindustrial.blocks;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.TransparentBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-
-import javax.swing.plaf.nimbus.State;
 
 public class ModBlocks {
 
@@ -17,14 +14,6 @@ public class ModBlocks {
 
 
     //basic blocks
-    public static final DeferredBlock<Block> BLOCK_OF_ALUMINIUM = BLOCKS.registerSimpleBlock(
-            "block_of_aluminium",
-            BlockBehaviour.Properties.of()
-                    .sound(SoundType.METAL)
-                    .strength(0.5f,1f)
-                    .requiresCorrectToolForDrops()
-
-    );
 
     public static final DeferredBlock<Block> REINFORCED_CONCRETE = BLOCKS.registerSimpleBlock(
             "reinforced_concrete",
@@ -34,6 +23,25 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
 
     );
+
+    public static final DeferredBlock<Block> BLOCK_OF_ALUMINIUM = BLOCKS.registerSimpleBlock(
+            "block_of_aluminium",
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.METAL)
+                    .strength(0.5f,1f)
+                    .requiresCorrectToolForDrops()
+
+    );
+
+    public static final DeferredBlock<Block> KIRK_BLOCK = BLOCKS.registerSimpleBlock(
+            "kirk_block",
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.METAL)
+                    .strength(0.5f,1f)
+                    .requiresCorrectToolForDrops()
+    );
+
+
 
     public static final DeferredBlock<Block> PLASTERED_REINFORCED_CONCRETE = BLOCKS.registerSimpleBlock(
             "plastered_reinforced_concrete",
@@ -84,8 +92,8 @@ public class ModBlocks {
 
     );
 
-    public static final DeferredBlock<Block> FIRE_BRICKS = BLOCKS.registerSimpleBlock(
-            "fire_bricks",
+    public static final DeferredBlock<Block> REFRACTORY_BRICKS = BLOCKS.registerSimpleBlock(
+            "refractory_bricks",
             BlockBehaviour.Properties.of()
                     .sound(SoundType.DEEPSLATE_BRICKS)
                     .strength(0.3f,6f)

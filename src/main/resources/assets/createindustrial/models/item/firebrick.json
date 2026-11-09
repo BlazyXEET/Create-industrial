@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "createindustrial:item/fire_brick"
+    "layer0": "createindustrial:item/firebrick"
   }
 }

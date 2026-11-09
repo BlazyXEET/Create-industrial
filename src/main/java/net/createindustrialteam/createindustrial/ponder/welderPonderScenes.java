@@ -43,6 +43,5 @@ public class welderPonderScenes extends PonderScene {
         scene.overlay().showControls(util.vector().topOf(firstPointerPos), Pointing.DOWN, 20).rightClick();
         scene.idle(10);
         scene.overlay().showControls(util.vector().topOf(secondPointerPos), Pointing.UP, 20).leftClick();
-        print("hello world");
     };
 };

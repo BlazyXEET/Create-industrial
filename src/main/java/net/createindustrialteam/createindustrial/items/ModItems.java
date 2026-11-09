@@ -14,6 +14,9 @@ public class ModItems {
     public static final DeferredItem<BlockItem> BLOCK_OF_ALUMINIUM_ITEM =
             ITEMS.registerSimpleBlockItem("block_of_aluminium", ModBlocks.BLOCK_OF_ALUMINIUM);
 
+    public static final DeferredItem<BlockItem> KIRK_BLOCK =
+            ITEMS.registerSimpleBlockItem("kirk_block", ModBlocks.KIRK_BLOCK);
+
     public static final DeferredItem<BlockItem> REINFORCED_CONCRETE =
             ITEMS.registerSimpleBlockItem("reinforced_concrete", ModBlocks.REINFORCED_CONCRETE);
 
@@ -35,9 +38,8 @@ public class ModItems {
     public static final DeferredItem<BlockItem> BLOCK_OF_STEEL =
             ITEMS.registerSimpleBlockItem("block_of_steel", ModBlocks.BLOCK_OF_STEEL);
 
-    public static final DeferredItem<BlockItem> FIRE_BRICKS =
-            ITEMS.registerSimpleBlockItem("fire_bricks", ModBlocks.FIRE_BRICKS);
-
+    public static final DeferredItem<BlockItem> REFRACTORY_BRICKS =
+            ITEMS.registerSimpleBlockItem("refractory_bricks", ModBlocks.REFRACTORY_BRICKS);
 
     public static final DeferredItem<BlockItem> REACTOR_FUEL_ROD_FRAME =
             ITEMS.registerSimpleBlockItem("reactor_fuel_rod_frame", ModBlocks.REACTOR_FUEL_ROD_FRAME);
@@ -49,8 +51,8 @@ public class ModItems {
             ITEMS.registerSimpleBlockItem("alumina_dust", ModBlocks.ALUMINA_DUST_LAYER);
 
     // regular items
-    public static final DeferredItem<Item> FIRE_BRICK =
-        ITEMS.registerSimpleItem("fire_brick");
+    public static final DeferredItem<Item> FIREBRICK =
+        ITEMS.registerSimpleItem("firebrick");
 
     public static final DeferredItem<Item> BAUXITE_POWDER =
         ITEMS.registerSimpleItem("bauxite_powder");
@@ -88,8 +90,8 @@ public class ModItems {
     public static final DeferredItem<Item> SILICON_CHIP =
     ITEMS.registerSimpleItem("silicon_chip");
 
-    public static final DeferredItem<Item> UNFIRED_FIRECLAY =
-    ITEMS.registerSimpleItem("unfired_fireclay");
+    public static final DeferredItem<Item> FIRECLAY =
+    ITEMS.registerSimpleItem("fireclay");
 
 
 

@@ -9,8 +9,8 @@
   "block.createindustrial.block_of_californium": "Block Of Californium",
   "block.createindustrial.block_of_steel": "Block Of Steel",
   "block.createindustrial.reactor_fuel_rod_frame": "Reactor Fuel Rod Frame",
-  "item.createindustrial.fire_brick": "Fire Brick",
-  "item.createindustrial.firebricks": "Firebricks",
+  "item.createindustrial.firebrick": "Firebrick",
+  "block.createindustrial.refractory_bricks": "Refractory Bricks",
   "block.createindustrial.bauxite_ore": "Bauxite Ore",
   "item.createindustrial.bauxite_powder": "Bauxite Powder",
   "item.createindustrial.steel_ingot": "Steel Ingot",
@@ -24,6 +24,9 @@
   "item.createindustrial.plutonium_ingot": "Plutonium Ingot",
   "item.createindustrial.steel_plate": "Steel Plate",
   "item.createindustrial.silicon_chip": "Silicon Chip",
-  "item.createindustrial.unfired_fireclay": "Unfired Fireclay",
-  "block.createindustrial.kirk_block": "Kirk Block"
+  "item.createindustrial.fireclay": "Fireclay",
+  "block.createindustrial.kirk_block": "Kirk Block",
+  "createindustrial.ponder.welder_intro.header": "Welding machinery",
+  "createindustrial.ponder.welder_intro.text_1": "Multiblocks dont assemble on their own",
+  "createindustrial.ponder.welder_intro.text_2": "Instead, they require welding by using an industrial welder"
 }
