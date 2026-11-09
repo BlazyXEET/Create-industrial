@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "createindustrial:block/reinforced_concrete_slab"
+    },
+    "type=top": {
+      "model": "createindustrial:block/reinforced_concrete_slab_top"
+    },
+    "type=double": {
+      "model": "createindustrial:block/reinforced_concrete"
+    }
+  }
+}

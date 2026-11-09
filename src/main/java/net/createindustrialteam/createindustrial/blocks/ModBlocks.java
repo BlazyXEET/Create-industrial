@@ -1,7 +1,6 @@
 package net.createindustrialteam.createindustrial.blocks;
 
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -147,6 +146,31 @@ public class ModBlocks {
 
     );
 
+     public static final DeferredBlock<Block> REINFORCED_CONCRETE_SLAB = BLOCKS.register(
+            "reinforced_concrete_slab",
+             () -> new SlabBlock(
+                     BlockBehaviour.Properties.of()
+                     .sound(SoundType.STONE)
+                     .strength(0.5f,1f)
+                     .requiresCorrectToolForDrops()
+             ));
+    public static final DeferredBlock<Block> REINFORCED_CONCRETE_WALL = BLOCKS.register(
+            "reinforced_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .sound(SoundType.STONE)
+                    .strength(0.5f,1f)
+                    .requiresCorrectToolForDrops()
+            )
+    );;
+
+     public static final DeferredBlock<Block> REINFORCED_CONCRETE_STAIRS = BLOCKS.register(
+            "reinforced_concrete_stairs",
+             () -> new StairBlock(REINFORCED_CONCRETE.get().defaultBlockState(), BlockBehaviour.Properties.of()
+                     .sound(SoundType.STONE)
+                    .strength(0.5f,1f)
+                     .requiresCorrectToolForDrops()
+             )
+    );
 
  //Marker
     public static void register(IEventBus modEventBus){

@@ -1,12 +1,15 @@
 package net.createindustrialteam.createindustrial.ponder;
 
 import net.createmod.catnip.math.Pointing;
+import net.createmod.ponder.api.PonderPalette;
 import net.createmod.ponder.api.scene.SceneBuilder;
 import net.createmod.ponder.api.scene.SceneBuildingUtil;
 import net.createindustrialteam.createindustrial.ponder.util.PonderScene;
 import net.createmod.ponder.foundation.instruction.PonderInstruction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec3;
 
 public class welderPonderScenes extends PonderScene {
     public static void customShowTextAbove(
@@ -27,11 +30,13 @@ public class welderPonderScenes extends PonderScene {
         setupScene(7,scene);
 
         var pos = util.grid().at(2,1,2);
-        var firstPointerPos = util.grid().at(0,7,0);
-        var secondPointerPos = util.grid().at(6,1,7);
+        AABB bb = new AABB(
+                0, 1, 0,
+                0, 1,0
+        );
         var sel = util.select().position(pos);
 
-        for (int y = 1; y <= 8; y++) {
+        for (int y = 1; y <= 7; y++) {
             reveal(scene, util.select().layer(y), Direction.DOWN);
             scene.idle(2); // pause between layers
         }
@@ -40,8 +45,16 @@ public class welderPonderScenes extends PonderScene {
         scene.idle(20);
         customShowTextAbove(scene, util, "blank 2", pos,15);
         scene.idle(20);
-        scene.overlay().showControls(util.vector().topOf(firstPointerPos), Pointing.DOWN, 20).rightClick();
-        scene.idle(10);
-        scene.overlay().showControls(util.vector().topOf(secondPointerPos), Pointing.UP, 20).leftClick();
+        scene.overlay().chaseBoundingBoxOutline(
+                PonderPalette.OUTPUT, "glue", bb, 1
+        );
+
+        scene.overlay().chaseBoundingBoxOutline(
+                PonderPalette.OUTPUT,
+                "glue",
+                bb.expandTowards(7, 8, 7),
+                60
+        );
+        customShowTextAbove(scene, util, "blank 3", pos,15);
     };
 };

@@ -28,5 +28,8 @@
   "block.createindustrial.kirk_block": "Kirk Block",
   "createindustrial.ponder.welder_intro.header": "Welding machinery",
   "createindustrial.ponder.welder_intro.text_1": "Multiblocks dont assemble on their own",
-  "createindustrial.ponder.welder_intro.text_2": "Instead, they require welding by using an industrial welder"
+  "createindustrial.ponder.welder_intro.text_2": "Instead, they require welding by using an industrial welder",
+  "block.createindustrial.reinforced_concrete_slab": "Reinforced Concrete Slab",
+  "block.createindustrial.reinforced_concrete_wall": "Reinforced Concrete Wall",
+  "block.createindustrial.reinforced_concrete_stairs": "Reinforced Concrete Stairs"
 }

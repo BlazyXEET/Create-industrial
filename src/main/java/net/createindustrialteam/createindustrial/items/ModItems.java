@@ -93,7 +93,14 @@ public class ModItems {
     public static final DeferredItem<Item> FIRECLAY =
     ITEMS.registerSimpleItem("fireclay");
 
+    public static final DeferredItem<BlockItem> REINFORCED_CONCRETE_SLAB =
+        ITEMS.registerSimpleBlockItem("reinforced_concrete_slab", ModBlocks.REINFORCED_CONCRETE_SLAB );
 
+    public static final DeferredItem<BlockItem> REINFORCED_CONCRETE_WALL =
+        ITEMS.registerSimpleBlockItem("reinforced_concrete_wall", ModBlocks.REINFORCED_CONCRETE_WALL );
+
+    public static final DeferredItem<BlockItem> REINFORCED_CONCRETE_STAIRS =
+        ITEMS.registerSimpleBlockItem("reinforced_concrete_stairs", ModBlocks.REINFORCED_CONCRETE_STAIRS );
 
     //Marker
     public static void register(IEventBus modEventBus){
