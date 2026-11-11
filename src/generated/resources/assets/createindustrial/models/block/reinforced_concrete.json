@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "createindustrial:block/reinforced_concrete_top",
+    "side": "createindustrial:block/reinforced_concrete",
+    "top": "createindustrial:block/reinforced_concrete_top"
+  }
+}
