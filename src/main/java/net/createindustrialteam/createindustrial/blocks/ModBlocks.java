@@ -146,7 +146,7 @@ public class ModBlocks {
 
     );
 
-     public static final DeferredBlock<Block> REINFORCED_CONCRETE_SLAB = BLOCKS.register(
+     public static final DeferredBlock<SlabBlock> REINFORCED_CONCRETE_SLAB = BLOCKS.register(
             "reinforced_concrete_slab",
              () -> new SlabBlock(
                      BlockBehaviour.Properties.of()
@@ -154,7 +154,7 @@ public class ModBlocks {
                      .strength(0.5f,1f)
                      .requiresCorrectToolForDrops()
              ));
-    public static final DeferredBlock<Block> REINFORCED_CONCRETE_WALL = BLOCKS.register(
+    public static final DeferredBlock<WallBlock> REINFORCED_CONCRETE_WALL = BLOCKS.register(
             "reinforced_concrete_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of()
                     .sound(SoundType.STONE)
@@ -163,7 +163,7 @@ public class ModBlocks {
             )
     );;
 
-     public static final DeferredBlock<Block> REINFORCED_CONCRETE_STAIRS = BLOCKS.register(
+     public static final DeferredBlock<StairBlock> REINFORCED_CONCRETE_STAIRS = BLOCKS.register(
             "reinforced_concrete_stairs",
              () -> new StairBlock(REINFORCED_CONCRETE.get().defaultBlockState(), BlockBehaviour.Properties.of()
                      .sound(SoundType.STONE)
